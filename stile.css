@@ -1,0 +1,139 @@
+*{box-sizing: border-box;}
+
+body {
+	  background: #ebebeb;
+	  font-family: Arial;
+	  margin: 0px;
+	  padding: 0px;
+	  max-width: 100%;
+      overflow-x: hidden;
+}
+
+p{color: black;font-size: 16px;
+ display: block;
+	 
+	
+}
+ 
+a{ color:#15c2a2;
+	text-decoration: none;
+}
+
+.img-res{width: 100%;
+	height: auto;
+	
+}
+
+h1,
+h3,
+h2{color: #333;
+}
+
+.container{
+	padding: 15px;
+	max-width:1300px;
+	margin: 0 auto;
+}
+
+
+header{background-color: white;
+	   padding: 25px 15px 5px 15px;
+	   width: 100%;
+} 
+
+
+
+.logo{
+	   text-align: center;
+	   width:100%;
+	   display: block;
+	   font-size: 20px;
+}
+
+#menu-principale{
+	text-align: center;}
+
+#menu-principale li{
+	display: inline;
+}
+
+#menu-principale li a{
+	margin: 10px;
+}
+
+.cover {
+	   position: relative; 
+	   border-bottom: 10px solid yellow;
+
+}
+.cover__content {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 100px 20px 20px 20px;
+	background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0) 100%);
+
+}
+
+.cover__content p,
+.cover__content h1{color: white;}
+
+
+
+.grid{display: flex;
+	  flex-wrap: wrap;
+}
+
+
+.col-34{
+	width: 100%;
+	padding: 15px;
+}
+	
+.col-33{
+	width: 33%; 
+	padding: 1% 1% 1% 1%;
+
+}
+
+@media (max-width: 768px) { 
+	
+	.col-33{width: 100%;}
+	
+	.cover img {height: 300px;
+	object-fit: cover;
+	}
+	
+	.cover h1 {font-size: 25px;
+		
+	}
+}
+
+
+
+footer{background: #333;
+	  padding: 20px;
+}
+	
+footer p{
+	color:white;
+}
+
+.wa-link {display: inline-block;
+		  width: 80px;
+		  height: 80px;
+	      position: fixed;
+		  bottom:20px;
+		  right: 20px;
+		  display: none;
+}
+
+@media (max-width: 768px) { 
+	
+	.wa-link {display: block;}
+
+}
+
+
